@@ -1,0 +1,85 @@
+.maincontainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top:20px ;
+}
+ul li{
+    display: flex;
+    list-style-type: none;
+    margin:1rem;
+    gap:0.5rem;
+}
+ul li p{
+    margin-top: -3px;
+}
+p{
+    text-align: center;
+}
+.reportsection{
+    width:70%;
+    height:800px;
+}
+.centersection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formcontainer{
+    border: 0.5px solid rgb(187, 186, 186);
+    padding: 1rem 2rem;
+    margin-top: 1.5rem;
+    width: fit-content;
+}
+.formheading{
+    text-align: center;
+}
+.formlabel{
+    display: block;
+    font-size: 1.1rem;
+    margin: 1rem 0 0.5rem 0;
+}
+select,input{
+    width: 100%;
+    padding: 0.5rem;
+    outline: none;
+    border: 0.5px solid rgb(187, 186, 186);
+    border-radius: 5px;
+}
+.submitbutton{
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 1rem;
+    width: 7rem;
+    height: 2rem;
+    border:none;
+    background-color: rgb(38, 243, 38);
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.tableheading{
+    margin: 1rem 0;
+}
+table{
+    width: 100%;
+}
+table+tr{
+    border: 1px solid black;
+}
+td{
+    text-align: center;
+}
+td:nth-last-child(){
+    display: flex;
+    justify-content: space-evenly;
+}
+.editbutton{
+    color:greenyellow;
+    font-size: 1.5rem;
+    border: none;
+}
+.deletebutton{
+    margin: 10px 0 0 10px;
+    color:red;
+    font-size: 1.5rem;
+    border:none
+}
